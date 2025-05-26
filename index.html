@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en"> <!--(lang) define el idioma del documento-->
+<head> <!--(head) encabezado-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Estilos personalizados y Bootstrap -->
+    <link rel="stylesheet" href="/css/bootstrap.main.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+     <link rel="stylesheet" href="color.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>diseño web</title>
+</head>
+
+<!--(body) cuerpo-->
+<body>
+    <!-- barra de navegacion-->
+ <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Diseño web</a> <!--(a) crea rutas y (href) direciona ruta-->
+     <!-- Botón para menú responsive -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span> <!--(span) sirve para aplicar estilos o clases a una parte especifica-->
+    </button> 
+    <!-- Menú de navegación -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0"> <!--(ul) crea una lista desordenada y (li) crea un elemento de lista-->
+        <li class="nav-item">
+          <a class="nav-link active " aria-current="page" href="#">inicio</a> <!-- Este enlace está deshabilitado -->
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.cursosvirtualessena.com.co/cursos-de-programacion/">cursos</a>
+        </li>
+        <li class="nav-item dropdown">
+      <!-- Menú desplegable -->
+          <a class="nav-link dropdown-toggle" href="http://127.0.0.1:5500/index.html#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            mas opciones
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="https://www.cursosvirtualessena.com.co/cursos-de-programacion/">cursos</a></li>
+            <li><a class="dropdown-item" href="https://tecnomagazine.net/software-de-programacion/">programas</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="https://gabimoreno.soy/primer-trabajo-programador">como conseguir trabajo</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">contacto</a>  <!-- Este enlace está deshabilitado -->
+        </li>
+      </ul>
+       <!-- Formulario de búsqueda -->
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="buscar" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">toca</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- fin de la barra de navegacion-->
+
+
+ <!-- Carrusel de imágenes principal -->
+<div id="carouselImagenes" class="carousel slide my-2" data-bs-ride="carousel" data-bs-interval="2000">
+    <!-- Indicadores del carrusel -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselImagenes" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselImagenes" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselImagenes" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselImagenes" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselImagenes" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#carouselImagenes" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    <button type="button" data-bs-target="#carouselImagenes" data-bs-slide-to="6" aria-label="Slide 7"></button>
+    <button type="button" data-bs-target="#carouselImagenes" data-bs-slide-to="7" aria-label="Slide 8"></button>
+  </div>
+  <div class="carousel-inner">
+     <!-- Imágenes del carrusel -->
+    <div class="carousel-item active">
+      <img src="/imagenes/pexels-divinetechygirl-1181534.jpg" class="d-block w-100" alt="...">
+    </div>
+    <!--primera imagen-->
+    <div class="carousel-item">
+      <img src="/imagenes/pexels-divinetechygirl-1181359.jpg" class="d-block w-100" alt="...">
+    </div>
+    <!-- segunda imagen -->
+    <div class="carousel-item">
+      <img src="/imagenes/pexels-thisisengineering-3861958.jpg" class="d-block w-100" alt="...">
+    </div>
+    <!-- tercera imagen -->
+    <div class="carousel-item">
+      <img src="/imagenes/pexels-cottonbro-5473302.jpg" class="d-block w-100" alt="...">
+    </div>
+    <!-- cuarta imagen -->
+    <div class="carousel-item">
+      <img src="/imagenes/pexels-mikhail-nilov-7988747.jpg" class="d-block w-100" alt="...">
+    </div>
+    <!-- quinta imagen -->
+    <div class="carousel-item">
+      <img src="/imagenes/pexels-divinetechygirl-1181672.jpg" class="d-block w-100" alt="...">
+    </div>
+    <!-- sexta imagen -->
+    <div class="carousel-item">
+      <img src="/imagenes/pexels-mizunokozuki-12899162.jpg" class="d-block w-100" alt="...">
+    </div>
+    <!-- septima imagen -->
+    <div class="carousel-item">
+      <img src="/imagenes/programacion(1).jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <!-- Fin de las imágenes del carrusel -->
+
+  <!-- Controles del carrusel siguiente -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselImagenes" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span> 
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <!-- Botón siguiente -->
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselImagenes" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+  </button>
+</div>
+<!-- Fin del carrusel de imágenes principal -->
+
+
+<!--carrusel de video -->
+
+<!-- Sección de introducción-->
+<div class="container text-center my-4">  <!-- text-center centra el contenido horizontalmente usando Bootstrap -->
+  <h1>¿Qué es la programación?</h1>
+  <p class="lead">Se explica los conceptos básicos de la programación</p>
+</div>
+
+<!-- Carrusel de video-->
+<div id="carouselvideo" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="d-flex justify-content-center">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/7vbi-OCFZEY?si=_B5H9WHFEY_8Ocj8"
+          title="YouTube video player" c="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- frameborder: controla los bordes del iframe -->
+<!-- allowfullscreen: permite ver el video en pantalla completa -->
+<!-- allow: da permisos específicos al reproductor, como autoplay, clipboard-write, etc. -->
+
+<!-- Fin del carrusel de video -->
+
+
+
+<!--etiqueta de programar-->
+<div class="container my-5">
+  <div class="row g-4"> <!-- g-4 agrega espacio entre columnas -->
+
+    <!-- Tarjeta 1 -->
+    <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3">
+      <div class="card h-100 shadow-sm rounded">
+        <img src="/imagenes/pexels-olia-danilevich-4974920.jpg" class="card-img-top" alt="Programar">
+        <div class="card-body">
+          <h5 class="card-title">Conceptos de programar</h5>
+          <p class="card-text">La programación se refiere al acto de escribir y diseñar código para crear programas de software. Estos programas son instrucciones que le indican a una computadora qué hacer.</p>
+          <a href="https://concepto.de/programacion/" class="btn btn-primary">Enlace</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- col-*: define el ancho de la columna según el tamaño de pantalla (12 columnas en total). 
+       sm, md, lg, xl: tamaños para móvil, tablet, escritorio y pantallas grandes -->
+
+    <!-- Tarjeta 2 -->
+    <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3">  
+      <div class="card h-100 shadow-sm rounded">
+        <img src="/imagenes/pexels-mikhail-nilov-7988747.jpg" class="card-img-top" alt="Lenguaje de programación">
+        <div class="card-body">
+          <h5 class="card-title">Lenguaje de programación</h5>
+          <p class="card-text">Es un sistema de símbolos y reglas que permite crear programas para controlar el comportamiento lógico de una máquina.</p>
+          <a href="https://www.mediasource.mx/blog/lenguaje-de-programacion" class="btn btn-primary">Enlace</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tarjeta 3 -->
+    <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3">
+      <div class="card h-100 shadow-sm rounded">
+        <img src="/imagenes/pexels-cottonbro-5124882.jpg" class="card-img-top" alt="Datos curiosos de la programación">
+        <div class="card-body">
+          <h5 class="card-title">11 datos curiosos de la programación</h5>
+          <p class="card-text">Desde el famoso "Hello, World!" hasta el código más largo del mundo, descubre curiosidades sorprendentes sobre la programación.</p>
+          <a href="https://tekkieuni.com/es/blog/coding-facts-you-didnt-know-about/" class="btn btn-primary">Enlace</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tarjeta 4 -->
+    <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3">
+      <div class="card h-100 shadow-sm rounded">
+        <img src="/imagenes/pexels-divinetechygirl-1181672.jpg" class="card-img-top" alt="Cursos del SENA">
+        <div class="card-body">
+          <h5 class="card-title">Cursos de programación del SENA</h5>
+          <p class="card-text">El SENA ofrece formación gratuita en programación para todos, desde lo básico hasta la creación de aplicaciones completas.</p>
+          <a href="https://www.cursosvirtualessena.com.co/cursos-de-programacion/" class="btn btn-primary">Enlace</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Fin de las tarjetas -->
+
+
+
+
+
+
+<!--comienzo del pie de página-->
+<!-- (Footer) pie de página--->
+
+<footer class="bg-dark text-white mt-5 py-4">
+  <div class="container-fluid">
+    <div class="row">
+      
+      <!-- Columna 1: Información general -->
+      <div class="col-md-6">
+        <h4>Sobre esta App</h4>
+        <p>Esta aplicación fue desarrollada como parte del curso de diseño frontend del SENA. Su objetivo es enseñar los conceptos básicos de la programación.</p>
+      </div>
+
+      <!-- Columna 2: Enlaces rápidos -->
+      <div class="col-md-4">
+        <h4>Enlaces rápidos</h4>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white">Inicio</a></li> <!-- Este enlace está deshabilitado -->
+          <li><a href="https://www.cursosvirtualessena.com.co/cursos-de-programacion/" class="text-white">Cursos</a></li>
+          <li><a href="#" class="text-white">Contacto</a></li> <!-- Este enlace está deshabilitado -->
+          <li><a href="https://www.cursosvirtualessena.com.co/cursos-de-programacion/" class="text-white">SENA</a></li>
+        </ul>
+      </div>
+
+      <!-- Columna 3: Redes sociales o contacto -->
+      <div class="col-md-2">
+        <h4>Mas información</h4>
+        <a href="https://es-la.facebook.com/" class="text-white"><i class="fa-brands fa-facebook-f"></i>Facebook</a><br>
+        <a href="https://www.youtube.com/" class="text-white"><i class="fa-brands fa-youtube"></i>YouTube</a><br>
+        <a href="https://www.instagram.com/?hl=es" class="text-white"><i class="fa-brands fa-instagram"></i>Instagram</a>
+      </div>
+
+    </div>
+
+    <div class="text-center mt-3">
+      <hr class="bg-white">
+      <p>&copy; 2025 Mi Aplicación de Programación | SENA</p>
+    </div>
+  </div>
+</footer>
+<!-- Fin del footer -->
+
+<!-- Scripts de Bootstrap -->
+<!-- Agrega esto antes de cerrar el </body> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
